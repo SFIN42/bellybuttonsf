@@ -45,7 +45,7 @@ function buildMetadata(sample) {
         // the 0 degree position is the bottom of 9 so 9 would be (160 degrees -180) and 1 would be (20 degrees - 180)
         // multiply by a negative 1 to keep the needle on the top half of the semi circle.
         var degrees = ((level)*20-180)*-1;
-        alert(degrees);
+        // alert(degrees);
         radius = .5;
         var radians = degrees * Math.PI / 180;
         var x = radius * Math.cos(radians);
