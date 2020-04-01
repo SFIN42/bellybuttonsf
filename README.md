@@ -1,2 +1,0 @@
-# bellybuttonsf
-plotly-challenge
